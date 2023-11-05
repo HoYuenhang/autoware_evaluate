@@ -1,6 +1,6 @@
 source ~/autoware/install/setup.bash
 # Kraken側autoware起動開始
-# sleep 90
+sleep 90
 # autoware起動完了, rosbag再生開始
 ros2 bag play ~/autoware_map/sample-rosbag/sample.db3 -r 0.2 -s sqlite3 &
 sleep 30
